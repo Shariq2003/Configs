@@ -1,0 +1,25 @@
+NOTE : Config the Github Repo if not yet.....
+	Step 1: git remote add origin YOUR_REPO_LINK
+
+Step 2 : git init
+Step 3 : git add .
+Step 4 : git commit -m "YOUR MSG"
+
+NOTE : Config the branch, if not yet... (Means you have to set your current branch as similar of remote origin)
+	Step 5 : git branch -b BRANCH_NAME (If not exist then have to create that branch) else ...
+	Step 6 : git branch BRANCH_NAME
+
+NOTE : If your remote origin have some files that not in your local, then have to take a pull...
+
+Step 7 : git pull origin BRANCH_NAME
+
+NOTE : If facing upstream issue, then have to set the upstream (Current head)
+
+Step 8 : git branch --set-upstream-to=origin/ORIGIN_BRANCH LOCAL_BRANCH
+
+NOTE : Resolve Conflicts if occured, by merging...
+
+Step 9 : git push or git push origin BRANCH_NAME
+	
+
+

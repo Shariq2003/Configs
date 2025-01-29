@@ -1,0 +1,15 @@
+Step 1 : npm install tailwindcss @tailwindcss/vite
+
+Step 2 : vite.config.ts
+          ```
+          import { defineConfig } from 'vite'
+          import tailwindcss from '@tailwindcss/vite'
+          export default defineConfig({
+            plugins: [
+              tailwindcss(),
+            ],
+          })
+          ```
+
+Step 3 : index.css
+	 - Add : @import "tailwindcss";
