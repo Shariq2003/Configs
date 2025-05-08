@@ -1,0 +1,55 @@
+Project Initialisation
+
+Step 1 : npm install -g @angular/cli (in cmd)
+Step 2 : ng new project_name (in cmd)
+Step 3 : Open the Project in VS Code by command "code ."
+Step 4 : Start the project by "ng serve" or "npm start"
+Step 5 : Point the provided IP to get the webapp.
+
+--------------------------------------------
+Module Creation(For Modular  Architecture Based Projects)
+Step 1 : ng generate module module_name 
+			or
+	 ng g m module_name
+
+--------------------------------------------
+Component Creation
+Step 1 : ng generate component compo_name 
+			or
+	 ng g c compo_name
+
+--------------------------------------------
+Directive Creation
+Step 1 : ng generate directive directive_name 
+			or
+	 ng g d directive_name
+
+--------------------------------------------
+Interface Creation
+Step 1 : ng generate interface interface_name 
+			or
+	 ng g i interface_name
+
+--------------------------------------------
+Service Creation
+Step 1 : ng generate service service_name 
+			or
+	 ng g s service_name
+
+--------------------------------------------
+Guard Creation
+Step 1 : ng generate guard guard_name 
+			or
+	 ng g g guard_name
+
+--------------------------------------------
+Pipes Creation
+Step 1 : ng generate pipe pipe_name 
+			or
+	 ng g p pipe_name
+
+--------------------------------------------
+Class Creation
+Step 1 : ng generate class class_name 
+			or
+	 ng g class class_name
